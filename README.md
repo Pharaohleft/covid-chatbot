@@ -44,7 +44,64 @@ Integration: Connected the Assistant to real-time data via webhooks.
 
 Testing: Deployed and tested the chatbot to answer questions like “What are the symptoms of COVID-19?”
 
-Learning Outcome:
+Project Title: COVID-19 Auto Chat / COVID Chat-Bot
+Institution: Don Bosco Institute of Technology, Mumbai
+Course: Final Year Computer Engineering, Cloud Computing Lab
+Timeframe: 2021-2022
+
+🌟 Purpose of the Project
+To ease the load on overwhelmed communication systems during COVID-19 by providing quick, reliable information via a chatbot.
+
+Provide trusted, real-time data on COVID-19 (symptoms, testing sites, news) to the public.
+
+Help people avoid misinformation and keep them updated.
+
+🔧 Main Technologies & Services
+✅ IBM Watson Assistant: Core chatbot engine; understands questions and responds.
+✅ IBM Watson Discovery: Scans live news sources for COVID updates.
+✅ IBM Cloud Functions (OpenWhisk): Executes actions, like fetching data or calling APIs.
+✅ IBM Speech to Text & Text to Speech: For voice-based interaction (like asking verbally on a site).
+✅ Node.js: Runs the web server for chatbot interactions.
+✅ Slack: Chatbot integrated with Slack for workplace communications.
+✅ Node-RED: Visual programming tool to enable voice conversations (microphone input/output).
+
+🌍 Deployment Modes
+1️⃣ Website Chatbot
+2️⃣ Slack Integration
+3️⃣ Voice-enabled Node-RED interface
+
+This flexibility broadens access — helping both consumers and teams.
+
+🧩 How it Works (End-to-End)
+1️⃣ User asks a question (like “Where can I get tested?”).
+2️⃣ IBM Watson Assistant parses the question’s meaning.
+3️⃣ If live data is needed, IBM Cloud Functions fetch COVID stats from trusted APIs (e.g., Johns Hopkins).
+4️⃣ IBM Watson Discovery scans reputable news sites for relevant COVID articles.
+5️⃣ Watson Assistant crafts a clear response.
+6️⃣ Web page or Slack shows the chatbot’s answer instantly.
+7️⃣ In the voice version, Speech to Text turns user’s voice into text; Text to Speech speaks the chatbot’s answer back.
+
+🖥️ Implementation
+IBM Cloud setup: Registered for IBM Cloud, provisioned Watson services.
+
+Webhook configuration: Connected chatbot to external data APIs.
+
+Skill-building in Watson: Created “COVID Crisis Communication” dialog skill.
+
+Testing & verification: Deployed live previews and tested across channels.
+
+Voice interaction: Used Node-RED to turn audio into chatbot queries.
+
+📊 Your Learning Outcomes
+Mastered chatbot building using Watson Assistant.
+
+Understood API integrations for dynamic data retrieval.
+
+Learned to combine text-based and voice-based interactions.
+
+Experienced with cloud services orchestration — linking multiple IBM Cloud tools.
+
+Gained exposure to real-world public health use cases of AI.
 
 Mastered IBM Watson Assistant for real-world NLP.
 
